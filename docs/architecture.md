@@ -5,7 +5,7 @@
 
 ## Overview
 
-This document describes the end-to-end architecture that connects the Electricity Maps ETL pipeline (Bronze → Silver → Gold) to an LLM-based conversational interface. The goal is to allow internal users — analysts, engineers, and managers — to ask natural language questions about France's electricity production, flows, imports, and exports, and receive factual, grounded answers.
+This document describes the end-to-end architecture that connects the Electricity Maps ETL pipeline (Bronze → Silver → Gold) to an LLM-based conversational interface. The goal is to allow internal users — analysts, engineers, and managers to ask natural language questions about France's electricity production, flows, imports, and exports, and receive factual, grounded answers.
 
 The system uses **Retrieval-Augmented Generation (RAG)** to combine two types of knowledge:
 - **Structured data** from the Gold layer (Parquet files produced by the ETL pipeline)
